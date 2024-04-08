@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://xyzontop.win/script/util/lib.lua"))();
+local library = loadstring(game:HttpGet("https://github.com/sinkingviking/cobalt/blob/main/util"))();
 
 local theme = {
     ["Default"] = {
