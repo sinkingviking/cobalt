@@ -1,4 +1,4 @@
---// CUSTOM DRAWING
+-- CUSTOM DRAWING
 local drawing = {} do
     local services = setmetatable({}, {
         __index = function(self, key)
