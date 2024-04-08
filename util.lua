@@ -6,7 +6,7 @@ local settings = {
 
 local drawing = loadstring(game:HttpGet("https://github.com/sinkingviking/cobalt/blob/main/extension"))();
 local tween = loadstring(game:HttpGet("https://github.com/sinkingviking/cobalt/blob/main/tween"))()
-local bxor = loadstring(game:HttpGet('https://github.com/sinkingviking/cobalt/blob/main/bxor'))()
+local bxor = loadstring(game:HttpGet('https://raw.githubusercontent.com/sinkingviking/cobalt/main/bxor.lua'))()
 
 -- // UI LIBRARY
 if not isfolder(settings.folder_name) then
