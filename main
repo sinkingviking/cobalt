@@ -885,7 +885,7 @@ local connection
         risky = true,
 		callback = function(state)
 			if state then
-                loadstring(game:HttpGet(('https://xyzontop.win/script/FlyThing2222.lua'),true))()
+                --loadstring(game:HttpGet(('https://xyzontop.win/script/FlyThing2222.lua'),true))()
             else
                 for i,v in pairs(game.Workspace:GetChildren()) do
                     if v:IsA("Part") then
