@@ -1,6 +1,6 @@
 -- settings (so u dont have to scroll)
 local settings = {
-    folder_name = "cobaltz"; -- stupid shit
+    folder_name = "nnstomp"; -- stupid shit
     default_accent = Color3.fromRGB(61, 100, 227); -- also stupid shit
 };
 
