@@ -4,7 +4,7 @@ local settings = {
     default_accent = Color3.fromRGB(61, 100, 227); -- also stupid shit
 };
 
-local drawing = loadstring(game:HttpGet("https://github.com/sinkingviking/cobalt/blob/main/extension"))();
+local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/extension"))();
 local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/tween"))()
 local bxor = loadstring(game:HttpGet('https://raw.githubusercontent.com/sinkingviking/cobalt/main/bxor'))()
 
