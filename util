@@ -5,7 +5,7 @@ local settings = {
 };
 
 local drawing = loadstring(game:HttpGet("https://github.com/sinkingviking/cobalt/blob/main/extension"))();
-local tween = loadstring(game:HttpGet("https://xyzontop.win/script/util/Tween.lua"))()
+local tween = loadstring(game:HttpGet("https://github.com/sinkingviking/cobalt/blob/main/tween"))()
 local bxor = loadstring(game:HttpGet('https://xyzontop.win/script/util/bxor.lua'))()
 
 -- // UI LIBRARY
