@@ -1,4 +1,4 @@
-local Signal = loadstring(game:HttpGet("https://xyzontop.win/script/util/Signal.lua"))()
+local Signal = loadstring(game:HttpGet("https://github.com/sinkingviking/cobalt/blob/main/signal"))()
 
 local render = game:GetService("RunService").RenderStepped
 local sqrt, sin, pi, halfpi, doublepi = math.sqrt, math.sin, math.pi, math.pi / 2, math.pi * 2
