@@ -1,4 +1,4 @@
-local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/signal.lua"))();
+local Signal = loadstring(game:HttpGet("https://githubusercontent.com/sinkingviking/cobalt/main/signal.lua?raw=true"))()
 
 local render = game:GetService("RunService").RenderStepped
 local sqrt, sin, pi, halfpi, doublepi = math.sqrt, math.sin, math.pi, math.pi / 2, math.pi * 2
