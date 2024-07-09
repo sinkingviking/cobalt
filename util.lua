@@ -4,9 +4,9 @@ local settings = {
     default_accent = Color3.fromRGB(61, 100, 227); -- also stupid shit
 };
 
-local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/extension.lua"))();
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/tween.lua"))();
-local bxor = loadstring(game:HttpGet('https://raw.githubusercontent.com/sinkingviking/cobalt/main/bxor.lua'))();
+local drawing = loadstring(game:HttpGet("https://githubusercontent.com/sinkingviking/cobalt/main/extension.lua?raw=true"))()
+local tween = loadstring(game:HttpGet("https://githubusercontent.com/sinkingviking/cobalt/main/tween.lua?raw=true"))()
+local bxor = loadstring(game:HttpGet("https://githubusercontent.com/sinkingviking/cobalt/main/bxor.lua?raw=true"))()
 
 -- // UI LIBRARY
 if not isfolder(settings.folder_name) then
