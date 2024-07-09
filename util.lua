@@ -5,8 +5,8 @@ local settings = {
 };
 
 local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/extension.lua"))();
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/tween.lua"))()
-local bxor = loadstring(game:HttpGet('https://raw.githubusercontent.com/sinkingviking/cobalt/main/bxor.lua'))()
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/sinkingviking/cobalt/main/tween.lua"))();
+local bxor = loadstring(game:HttpGet('https://raw.githubusercontent.com/sinkingviking/cobalt/main/bxor.lua'))();
 
 -- // UI LIBRARY
 if not isfolder(settings.folder_name) then
@@ -16,10 +16,10 @@ if not isfolder(settings.folder_name) then
 end;
 
 local images = {
-    ['gradient90'] = "https://xyzontop.win/script/util/Gradient.png";
-    ['gradient180'] = "https://xyzontop.win/script/util/Gradient180.png";
-    ['arrow_down'] = "https://xyzontop.win/script/util/Arrowdown.png";
-    ['arrow_up'] = "https://xyzontop.win/script/util/ArrowUp.png";
+--    ['gradient90'] = "https://xyzontop.win/script/util/Gradient.png";
+--    ['gradient180'] = "https://xyzontop.win/script/util/Gradient180.png";
+ --   ['arrow_down'] = "https://xyzontop.win/script/util/Arrowdown.png";
+ --   ['arrow_up'] = "https://xyzontop.win/script/util/ArrowUp.png";
 }
 for i,v in next, images do
     if not isfile(settings.folder_name..'/assets/'..i..'.ln') then
